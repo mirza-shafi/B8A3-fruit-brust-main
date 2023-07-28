@@ -6,15 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Burst</title>
     <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
-
-    <!-- tailwind + daisy cdn -->
-
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" 
     rel="stylesheet" 
     type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
-
-<!-- font awesome link -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -22,17 +17,12 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
-
-    <!-- tailwind customization -->
     <script>
       tailwind.config = {
         theme: {
@@ -98,13 +88,9 @@
     </nav>
     <section class="lg:px-28 px-6">
       <div class="carousel w-full ">
-        <!-- 1 -->
-        
         <div id="slide1" class="carousel-item rounded-lg   relative w-full">
           
           <img src="./images/banner1.png" class=" brightness-50 w-[600px] h-[250px] md:w-full md:h-full lg:w-[1440px] lg:h-[550px] object-cover rounded-lg " />
-          <!-- slide 1 -->
-
           <div class="hero-content text-center absolute top-1 md:top-11 left-[9%] md:left-[7%] lg:left-[26%] ">
             <div class="max-w-md text-center lg:pt-0 pt-6">
               <h1 class="text-3xl lg:text-6xl text-white font-bold md:w-[600px]">Exotic tastes at your <br> doorstep
@@ -113,17 +99,13 @@
               <button class="rounded-lg  bg-[#F85559] border-none text-white  md:ml-32 px-4 py-3 hover:cursor-pointer">Shop Now</button>
             </div>
           </div>
-         
           <div class="absolute flex justify-between transform -translate-y-1/2  left-2 right-2 lg:left-5 lg:right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle bg-[#121212] hover:text-black text-white border-none">❮</a> 
             <a href="#slide2" class="btn btn-circle bg-[#121212] hover:text-black text-white border-none">❯</a>
           </div>
         </div> 
-        
         <div id="slide2" class="carousel-item rounded-lg relative w-full">
           <img src="./images/banner2.png" class=" brightness-50 w-[600px] h-[250px] md:w-full md:h-full lg:w-[1440px] lg:h-[550px] object-cover rounded-lg " />
-          <!-- slide 2 -->
-
           <div class="hero-content text-center absolute top-1 md:top-11 left-[9%] md:left-[8%] lg:left-[26%] ">
             <div class="max-w-md text-center lg:pt-0 pt-6">
               <h1 class="text-3xl lg:text-6xl text-white font-bold md:w-[600px]">Exotic tastes at your <br> doorstep
@@ -141,8 +123,6 @@
         <div id="slide3" class="carousel-item rounded-lg relative w-full">
           
           <img src="./images/banner3.png" class=" brightness-50 w-[600px] h-[250px] md:w-full md:h-full lg:w-[1440px] lg:h-[550px] object-cover rounded-lg " />
-          <!-- slide 3 -->
-
           <div class="hero-content text-center absolute top-1 md:top-11 left-[9%] md:left-[8%] lg:left-[26%] ">
             <div class="max-w-md text-center lg:pt-0 pt-6">
               <h1 class="text-3xl lg:text-6xl text-white font-bold md:w-[600px]">Exotic tastes at your <br> doorstep
@@ -160,8 +140,6 @@
         <div id="slide4" class="carousel-item rounded-lg relative w-full">
           
           <img src="./images/banner4.png" class=" brightness-50 w-[600px] h-[250px] md:w-full md:h-full lg:w-[1440px] lg:h-[550px] object-cover rounded-lg " />
-          <!-- slide 4 -->
-
           <div class="hero-content text-center absolute top-1 md:top-11 left-[9%] md:left-[8%] lg:left-[26%] ">
             <div class="max-w-md text-center lg:pt-0 pt-6">
               <h1 class="text-3xl lg:text-6xl text-white font-bold md:w-[600px]">Exotic tastes at your <br> doorstep
@@ -170,7 +148,6 @@
               <button class="rounded-lg px-4 py-3 cursor-pointer bg-[#F85559] border-none text-white  md:ml-32">Shop Now</button>
             </div>
           </div>
-         
           <div class="absolute flex justify-between transform -translate-y-1/2  left-2 right-2 lg:left-5 lg:right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle bg-[#121212] text-white border-none hover:text-black">❮</a> 
             <a href="#slide1" class="btn btn-circle bg-[#121212] text-white border-none hover:text-black">❯</a>
@@ -178,7 +155,6 @@
         </div>
       </div>
     </section>
-
     <section class="lg:px-36 hidden lg:block  absolute top-[88%] left-[4%]">
       <div class="flex gap-20 bg-white items-center p-12 rounded-lg shadow-lg">
         <div class="flex flex-col items-center">
@@ -300,7 +276,6 @@
   <input type="radio" name="rating-1" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
 </div>
 <div class="modal-action flex justify-center py-1 ">
-  <!-- if there is a button in form, it will close the modal -->
   <button class="mx-3 border border-[#F85559] text-[#F85559] py-2 px-4 rounded-lg text-md ">Close</button>
   <button class="bg-[#F85559] text-md rounded-lg text-white px-3 py-2">Buy Now</button>
 </div>
@@ -371,7 +346,6 @@
           
         </div>
       </div>
-    <!-- 3 -->
       <div
         class="card hover:border hover:border-[#F85559] cursor-pointer bg-white pt-10 px-2 border border-gray-300 text-center"
       >
@@ -434,8 +408,6 @@
           
         </div>
       </div>
-
-      <!-- 4 -->
       <div
         class="card hover:border hover:border-[#F85559] cursor-pointer bg-white pt-10 px-2 border border-gray-300 text-center"
       >
@@ -499,7 +471,6 @@
         </div>
       </div>
       </section>
-       <!-- show all button -->
        <section class="my-14">
         <div class="flex justify-center ">
           <button class="text-md py-3 px-5 text-white bg-[#F85559] rounded-lg">Shop All</button>
@@ -580,7 +551,6 @@
               
             </div>
 
-            <!-- 2 -->
             <div class=" flex flex-col  lg:flex-row gap-3  text-center ">
               <div class=" w-[60px] h-[60px] mx-auto md:mx-auto lg:w-[60px] lg:h-[50px]  flex items-center   bg-gray-300 hover:cursor-pointer rounded-full mt-2">
                 <svg  class=" w-[22px] h-[22px] mx-auto text-center  " xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8v-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5v3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20c0 0-.1-.1-.1-.1c0 0 0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5v3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2v-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"/></svg>
@@ -594,7 +564,6 @@
               
             </div>
 
-            <!-- 3 -->
             <div class=" flex flex-col  lg:flex-row gap-3  text-center ">
               <div class=" w-[60px] h-[60px] mx-auto md:mx-auto lg:w-[90px] lg:h-[50px]  flex items-center   bg-gray-300 hover:cursor-pointer rounded-full mt-2">
                 <svg class="w-[22px] h-[22px] mx-auto text-center  " xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><path d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg>
